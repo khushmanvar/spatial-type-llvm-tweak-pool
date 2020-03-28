@@ -11,3 +11,6 @@ ninja
 ** after the build completes **
 cd ../tests
 make
+
+This is my implementation of CSE601 (compiler design) course project "SafeC".
+The goal of safeC is to ensure "temporal", "type" and "spatial" safety for a subset of C programs. All implementation is done at LLVM IR level. We also catch "null pointer dereferences" by dynamic checks and dataflow analysis on LLVM IR. 
